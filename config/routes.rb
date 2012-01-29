@@ -1,4 +1,6 @@
 DashaRails::Application.routes.draw do
+  root :to => 'application'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

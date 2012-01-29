@@ -9,6 +9,8 @@ gem 'sqlite3'
 
 gem 'json'
 
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
+
 group :development do
   gem 'rspec-rails'
 end
